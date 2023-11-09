@@ -1,5 +1,6 @@
+import Counter from "./components/Counter";
 
-import BasicExample from './components/Accordion';
+
 
 // Store
 interface CounterState {
@@ -20,8 +21,8 @@ function App() {
 
   return (
     <div >
-      esdfsd
-      <BasicExample />
+      <Counter />
+
     </div>
   );
 }
